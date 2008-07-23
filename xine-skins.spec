@@ -2,7 +2,7 @@
 #gw The package version is the skin.version in the skinconfig file
 #gw TODO, next time, remove the .0 to match the skin.version
 %define version 5.0
-%define release %mkrel 5
+%define release %mkrel 7
 
 Summary: Skins for Xine
 Name: %{name}
