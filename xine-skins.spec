@@ -40,3 +40,39 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %attr(755,root,root) %dir %_datadir/xine/skins/*
 %attr(644,root,root) %dir %_datadir/xine/skins/*/*
+
+
+%changelog
+* Tue Jul 26 2011 GÃ¶tz Waschk <waschk@mandriva.org> 5.0-8mdv2012.0
++ Revision: 691698
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 5.0-7mdv2011.0
++ Revision: 242993
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed Aug 01 2007 GÃ¶tz Waschk <waschk@mandriva.org> 5.0-5mdv2008.0
++ Revision: 57478
+- Import xine-skins
+
+
+
+* Mon Jul 31 2006 GÃ¶tz Waschk <waschk@mandriva.org> 5.0-1mdv2007.0
+- Rebuild
+
+* Sun May 21 2006 GÃ¶tz Waschk <waschk@mandriva.org> 5.0-4mdk
+- Rebuild
+- use mkrel
+
+* Fri May 20 2005 Götz Waschk <waschk@mandriva.org> 5.0-3mdk
+- add more skins
+
+* Mon May 10 2004 Götz Waschk <waschk@linux-mandrake.com> 5.0-2mdk
+- fix Bug 9734
+
+* Tue May  4 2004 Götz Waschk <waschk@linux-mandrake.com> 5.0-1mdk
+- initial package
